@@ -9,7 +9,7 @@ $(function() {
         // e.preventDefault();
         console.log(e.target.id);
         $('#input').attr("placeholder",$("#" + e.target.id).text());
-
+        console.log("asd");
     });
 
     //----- CLOSE
